@@ -977,3 +977,119 @@ footer{
     }
 
 }
+/* ===== MOBILE ===== */
+@media (max-width: 768px){
+
+    header{
+        flex-direction: column;
+        height: auto;
+        padding: 15px 5%;
+        gap: 12px;
+    }
+
+    .logo img{
+        height: 40px;
+        transform: scale(1.1);
+    }
+
+    nav{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    nav a{
+        font-size: 14px;
+    }
+
+    .hero{
+        padding: 180px 6% 80px;
+        text-align: center;
+        min-height: auto;
+    }
+
+    .hero-content{
+        margin-left: 0;
+        max-width: 100%;
+    }
+
+    .hero-content h2{
+        font-size: 30px;
+        line-height: 1.3;
+    }
+
+    .hero-content p{
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .btn{
+        width: 100%;
+        max-width: 280px;
+        padding: 16px;
+    }
+
+    .container,
+    .contato-wrapper{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .texto,
+    .imagem,
+    .contato-left,
+    .contato-right{
+        width: 100%;
+    }
+
+    .texto h2,
+    .produtos h2,
+    .diferenciais h2,
+    .contato-left h2{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .texto p,
+    .contato-left p{
+        text-align: center;
+    }
+
+    .cards,
+    .diferenciais-grid{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card,
+    .item{
+        width: 100%;
+        max-width: 340px;
+    }
+
+    .info-cards{
+        flex-direction: column;
+    }
+
+    .map-top{
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .map-top h3{
+        font-size: 26px;
+    }
+
+    .map-top p{
+        font-size: 15px;
+    }
+
+    .contato-right iframe{
+        min-height: 320px;
+    }
+
+    footer{
+        font-size: 13px;
+        padding: 20px;
+    }
+}
